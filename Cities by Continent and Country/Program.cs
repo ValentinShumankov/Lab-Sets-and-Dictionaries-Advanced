@@ -23,10 +23,10 @@ namespace Cities_by_Continent_and_Country
                 {
                     countriesList [ continent ].Add( country, new List<string>( ) );
                 }
-                if (! countriesList[continent][country].Contains(city) )
-                {
+               
+                
                     countriesList [ continent ] [ country ].Add( city );
-                }
+                
             }
             foreach ( var continent in countriesList )
             {
